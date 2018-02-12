@@ -1,0 +1,188 @@
+body{ background: grey;
+}
+
+header{
+    background-color:white;
+    height:80px;
+    margin: 0 auto;
+    top: 0;
+    
+}
+
+#about{
+    font-size: 30px;
+    position: relative;
+    right: -30px;
+    color:rgb(109, 207, 231)
+}
+
+.clearfix {
+    overflow: auto;
+}
+.header {
+    background-color:rgb(109, 207, 231);
+    width:260px;
+    float: left;
+    top:0;
+    margin: 0 auto;
+    top:-20px;
+    position: relative;
+    text-align: center;
+    color: white
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: grey;
+    top:20px;
+    position: relative;
+}
+
+#biotext {
+    /*position: relative;*/
+    float:left;
+    left:0;
+    top:10px;
+    width:650px;
+    padding:10px;
+    margin:0;
+    background-color:white;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+
+
+#nav  {
+    color: gray;
+    float:right;
+    float:top 0px;
+    width:27%;
+    font-size:18px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.sidebar {
+    /*position:fixed;*/
+    float:right;
+    top:120px;
+    right:165px;       
+    padding:15px;
+    width:225px;
+    height:150px;
+    background-color:white;
+    font-size:20px;
+    color:rgb(109, 207, 231);
+    text-align: center;
+   
+    
+}
+
+#bio-image{
+    float: left;
+    padding: 10px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(85, 84, 84);
+    color: white;
+    text-align: center;
+    border-top: 5px solid rgb(109, 207, 231);
+}
+
+@media screen and (max-width: 980px) { 
+    
+    body {
+        background-color:grey;
+    }
+
+    .container {
+        width: 100%;    
+    }
+
+    #maincontent, #biotext,body{
+        /* Positioning */
+        margin-top:10px;
+        float:none;
+        /*width: 100%;*/
+        
+    }
+    .sidebar{
+        margin:0 auto; 
+        float:right;
+        padding: 10px;   
+        background-color:white;
+        }
+
+
+
+
+
+
+@media screen and (max-width: 768px) { 
+    
+      body {
+          background-color:grey;
+      }
+  
+      .container {
+          width: 100%;    
+      }
+
+      #main-content, #biotext,body{
+          /* Positioning */
+          margin-top:10px;
+          float:none;
+          /*width: 100%;*/
+          background-color: rgb(35, 71, 147);
+      }
+
+      .sidebar{
+        margin:0 auto; 
+        width:100%;
+        float:none;
+        padding: 10px;   
+        background-color: rgb(35, 71, 147);
+        }
+}
+
+@media screen and (max-width: 640px) { 
+    
+      body {
+          background-color: #333;
+      }
+  
+     
+      .container {
+          width: 100%;
+          
+      }
+       #main-content, #biotext,body{
+          /* Positioning */
+          margin-top: 10px;
+          background-color: rgb(39, 79, 29);
+          float:none;
+          width:100%;
+          height:min-content;   
+      }
+       
+      .sidebar{
+          margin:0;
+        width:100%;
+        float:none;
+        padding: 10px;
+        background-color: rgb(39, 79, 29);
+
+      }
+}
